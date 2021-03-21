@@ -6,11 +6,11 @@ de la aplicación que el primer origen, el almacenamiento en caché puede mejora
 datos se sirven con mayor rapidez.
 
 El almacenamiento en caché es más eficaz cuando una instancia de cliente lee de forma repetida los mismos datos, en especial si todas las condiciones siguientes se 
-aplican al almacén de datos original:
-Permanece relativamente estático.
-Es lento en comparación con la velocidad de la caché.
-Está sujeto a un alto nivel de contención.
-Está lejos cuando la latencia de red puede provocar que el acceso sea lento.
+aplican al almacén de datos original: <br />
+- Permanece relativamente estático.
+- Es lento en comparación con la velocidad de la caché.
+- Está sujeto a un alto nivel de contención.
+- Está lejos cuando la latencia de red puede provocar que el acceso sea lento.
 
 El almacenamiento en caché puede mejorar considerablemente el rendimiento, la escalabilidad y la disponibilidad. Cuantos más datos tenga y mayor sea el número de 
 usuarios que necesitan tener acceso a ellos, mayores son cada vez las ventajas del almacenamiento en caché. El motivo es que el almacenamiento en caché reduce la 
