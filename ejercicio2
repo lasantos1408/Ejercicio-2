@@ -31,5 +31,6 @@ será más lento que cuando los datos están contenidos en memoria, pero aún as
 Si tiene varias instancias de una aplicación que usa este modelo de ejecución simultánea, cada instancia de la aplicación tendrá su propia caché independiente con su propia
 copia de los datos.
 
-Una caché se puede considerar como una instantánea de los datos originales en algún momento del pasado. Si estos datos no son estáticos, es probable que las diferentes instancias
-de aplicación contengan versiones diferentes de los datos en sus cachés. Por lo tanto, la misma consulta realizada por estas instancias podría devolver resultados diferentes.
+Una caché se puede considerar como una instantánea de los datos originales en algún momento del pasado. Si estos datos no son estáticos, es probable que las diferentes
+instancias de aplicación contengan versiones diferentes de los datos en sus cachés. Por lo tanto, la misma consulta realizada por estas instancias podría devolver 
+resultados diferentes.
