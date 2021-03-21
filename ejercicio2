@@ -20,7 +20,7 @@ de la base de datos subyacente, permite que una aplicación cliente acceda a est
 Además, si la base de datos deja de estar disponible, es posible que las aplicaciones cliente continúen usando los datos contenidos en la caché.
 
 
-#Almacenamiento en caché privado
+Almacenamiento en caché privado
 El tipo más básico de caché es un almacén en memoria. Está contenido en el espacio de direcciones de un solo proceso y se accede directamente a él mediante el código
  que se ejecuta en ese proceso. Este tipo de memoria caché es de acceso rápido. También puede proporcionar un medio efectivo de almacenar cantidades modestas de datos
  estáticos, dado que el tamaño de una memoria caché suele estar restringido por la cantidad de memoria disponible en la máquina que hospeda el proceso.
